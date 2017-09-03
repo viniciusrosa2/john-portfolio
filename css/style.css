@@ -1,0 +1,96 @@
+* {
+    transition: 600ms;
+}
+
+.gal-h .legend {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 250px;
+    opacity: 0;
+}
+
+.gal-h .legend:hover {
+    opacity: 1;
+}
+
+.gal-v .legend {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 250px;
+    opacity: 0;
+}
+
+.gal-v .legend:hover {
+    opacity: 1;
+}
+
+.gal-v {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 200%;
+    transition: 500ms;
+}
+
+.gal-v:hover ,  .gal-h:hover {
+    background-size: 250%;
+}
+
+.gal-h {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 200%;
+    transition: 500ms;
+}
+
+.gal-01 {
+    background-image: url('../img/bola.png');
+}
+
+.gal-02 {
+    background-image: url('../img/curitiba_2.png');
+}
+
+.gal-03 {
+    background-image: url('../img/loveweek.png');
+}
+
+.gal-04 {
+    background-image: url('../img/figueira_1.png');
+}
+
+.gal-05 {
+    background-image: url('../img/figueira_2.png');
+}
+
+.gal-06 {
+    background-image: url('../img/figueira_3.png');
+}
+
+.gal-07 {
+    background-image: url('../img/garten_1.png');
+}
+
+.gal-08 {
+    background-image: url('../img/garten_2.png');
+}
+
+.gal-09 {
+    background-image: url('../img/sesc_1.png');
+}
+
+.gal-10 {
+    background-image: url('../img/sesc_2.png');
+}
+
+.col {
+    padding: 1px;
+    margin: 0;
+}
