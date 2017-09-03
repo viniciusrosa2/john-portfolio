@@ -5,7 +5,20 @@
     transition: 600ms;
 }
 
-#gallery, header, footer {
+#gallery,
+footer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    position: fixed;
+    background: #fff;
+    z-index: 10;
+    width: 100%;
+}
+
+header .row {
     width: 90%;
     margin: 0 auto;
 }
@@ -13,12 +26,12 @@
 header nav ul li {
     font-size: 20px;
     padding-left: 20px;
-    line-height: 80px;
+    line-height: 50px;
     display: inline-block;
 }
 
 header h1 {
-    line-height: 80px;
+    line-height: 50px;
 }
 
 .gal-h .legend {
@@ -50,14 +63,15 @@ header h1 {
 }
 
 .gal-v {
-    height: 250px;
+    height: 600px;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 250%;
     transition: 500ms;
 }
 
-.gal-v:hover ,  .gal-h:hover {
+.gal-v:hover,
+.gal-h:hover {
     background-size: 300%;
 }
 
@@ -114,7 +128,7 @@ header h1 {
     margin: 0;
 }
 
-footer ul li{
+footer ul li {
     display: inline-block;
     font-size: 28px;
 }
