@@ -1,5 +1,24 @@
 * {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
     transition: 600ms;
+}
+
+#gallery, header, footer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header nav ul li {
+    font-size: 20px;
+    padding-left: 20px;
+    line-height: 80px;
+    display: inline-block;
+}
+
+header h1 {
+    line-height: 80px;
 }
 
 .gal-h .legend {
@@ -34,19 +53,19 @@
     height: 250px;
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: 200%;
+    background-size: 250%;
     transition: 500ms;
 }
 
 .gal-v:hover ,  .gal-h:hover {
-    background-size: 250%;
+    background-size: 300%;
 }
 
 .gal-h {
     height: 250px;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 200%;
+    background-size: 250%;
     transition: 500ms;
 }
 
@@ -93,4 +112,13 @@
 .col {
     padding: 1px;
     margin: 0;
+}
+
+footer ul li{
+    display: inline-block;
+    font-size: 28px;
+}
+
+footer {
+    line-height: 80px;
 }
